@@ -1,0 +1,4 @@
+language: objective-c
+script:
+  - cd SenTester && xctool test -workspace SenTester.xcworkspace -scheme SenTester -sdk iphonesimulator && cd ..
+  #- cd XCTester && xcodebuild test -workspace XCTester.xcworkspace -scheme XCTester -sdk iphonesimulator && cd ..

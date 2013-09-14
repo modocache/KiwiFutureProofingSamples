@@ -1,0 +1,21 @@
+PODS:
+  - Kiwi (2.2.1):
+    - Kiwi/SenTestingKit
+  - Kiwi/ARC (2.2.1)
+  - Kiwi/NonARC (2.2.1)
+  - Kiwi/SenTestingKit (2.2.1):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+
+DEPENDENCIES:
+  - Kiwi (from `https://github.com/modocache/Kiwi.git`, commit `343a1ee0f6`)
+
+EXTERNAL SOURCES:
+  Kiwi:
+    :commit: 343a1ee0f6
+    :git: https://github.com/modocache/Kiwi.git
+
+SPEC CHECKSUMS:
+  Kiwi: 5882382d546ad88dcae1cde512523007f30d7a41
+
+COCOAPODS: 0.24.0

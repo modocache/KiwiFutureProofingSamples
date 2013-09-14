@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41DCD201C5040C89C137696 /* libPods-SenTesterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B035D023241B45B199CF100F /* libPods-SenTesterTests.a */; };
+		DACB0D7E17E3DC2E00AAE508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB0D7D17E3DC2E00AAE508 /* Foundation.framework */; };
+		DACB0D8017E3DC2E00AAE508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB0D7F17E3DC2E00AAE508 /* CoreGraphics.framework */; };
+		DACB0D8217E3DC2E00AAE508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB0D8117E3DC2E00AAE508 /* UIKit.framework */; };
+		DACB0D8817E3DC2F00AAE508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DACB0D8617E3DC2F00AAE508 /* InfoPlist.strings */; };
+		DACB0D8A17E3DC2F00AAE508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB0D8917E3DC2F00AAE508 /* main.m */; };
+		DACB0D8E17E3DC2F00AAE508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB0D8D17E3DC2F00AAE508 /* AppDelegate.m */; };
+		DACB0D9017E3DC2F00AAE508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACB0D8F17E3DC2F00AAE508 /* Images.xcassets */; };
+		DACB0DB217E3DC4100AAE508 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB0DB117E3DC4100AAE508 /* SenTestingKit.framework */; };
+		DACB0DB317E3DC4100AAE508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB0D7D17E3DC2E00AAE508 /* Foundation.framework */; };
+		DACB0DB417E3DC4100AAE508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB0D8117E3DC2E00AAE508 /* UIKit.framework */; };
+		DACB0DC817E3DCB100AAE508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DACB0DC417E3DCB100AAE508 /* InfoPlist.strings */; };
+		DACB0DC917E3DCB100AAE508 /* SenTesterTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DACB0DC617E3DCB100AAE508 /* SenTesterTests-Info.plist */; };
+		DACB0DCB17E3DCC100AAE508 /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB0DCA17E3DCC100AAE508 /* AppDelegateSpec.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACB0DBE17E3DC4100AAE508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACB0D7217E3DC2E00AAE508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACB0D7917E3DC2E00AAE508;
+			remoteInfo = SenTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52C3BB6F31CA426B9F2CD33C /* Pods-SenTesterTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenTesterTests.xcconfig"; path = "Pods/Pods-SenTesterTests.xcconfig"; sourceTree = "<group>"; };
+		B035D023241B45B199CF100F /* libPods-SenTesterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SenTesterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB0D7A17E3DC2E00AAE508 /* SenTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB0D7D17E3DC2E00AAE508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DACB0D7F17E3DC2E00AAE508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DACB0D8117E3DC2E00AAE508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DACB0D8517E3DC2F00AAE508 /* SenTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SenTester-Info.plist"; sourceTree = "<group>"; };
+		DACB0D8717E3DC2F00AAE508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DACB0D8917E3DC2F00AAE508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DACB0D8B17E3DC2F00AAE508 /* SenTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SenTester-Prefix.pch"; sourceTree = "<group>"; };
+		DACB0D8C17E3DC2F00AAE508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DACB0D8D17E3DC2F00AAE508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DACB0D8F17E3DC2F00AAE508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DACB0D9617E3DC2F00AAE508 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DACB0DB017E3DC4100AAE508 /* SenTesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenTesterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB0DB117E3DC4100AAE508 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DACB0DC517E3DCB100AAE508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DACB0DC617E3DCB100AAE508 /* SenTesterTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SenTesterTests-Info.plist"; sourceTree = "<group>"; };
+		DACB0DC717E3DCB100AAE508 /* SenTesterTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTesterTests-Prefix.pch"; sourceTree = "<group>"; };
+		DACB0DCA17E3DCC100AAE508 /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACB0D7717E3DC2E00AAE508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB0D8017E3DC2E00AAE508 /* CoreGraphics.framework in Frameworks */,
+				DACB0D8217E3DC2E00AAE508 /* UIKit.framework in Frameworks */,
+				DACB0D7E17E3DC2E00AAE508 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB0DAD17E3DC4100AAE508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB0DB217E3DC4100AAE508 /* SenTestingKit.framework in Frameworks */,
+				DACB0DB417E3DC4100AAE508 /* UIKit.framework in Frameworks */,
+				DACB0DB317E3DC4100AAE508 /* Foundation.framework in Frameworks */,
+				D41DCD201C5040C89C137696 /* libPods-SenTesterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACB0D7117E3DC2E00AAE508 = {
+			isa = PBXGroup;
+			children = (
+				DACB0D8317E3DC2F00AAE508 /* SenTester */,
+				DACB0DC317E3DCB100AAE508 /* SenTesterTests */,
+				DACB0D7C17E3DC2E00AAE508 /* Frameworks */,
+				DACB0D7B17E3DC2E00AAE508 /* Products */,
+				52C3BB6F31CA426B9F2CD33C /* Pods-SenTesterTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DACB0D7B17E3DC2E00AAE508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACB0D7A17E3DC2E00AAE508 /* SenTester.app */,
+				DACB0DB017E3DC4100AAE508 /* SenTesterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACB0D7C17E3DC2E00AAE508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DACB0D7D17E3DC2E00AAE508 /* Foundation.framework */,
+				DACB0D7F17E3DC2E00AAE508 /* CoreGraphics.framework */,
+				DACB0D8117E3DC2E00AAE508 /* UIKit.framework */,
+				DACB0D9617E3DC2F00AAE508 /* XCTest.framework */,
+				DACB0DB117E3DC4100AAE508 /* SenTestingKit.framework */,
+				B035D023241B45B199CF100F /* libPods-SenTesterTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACB0D8317E3DC2F00AAE508 /* SenTester */ = {
+			isa = PBXGroup;
+			children = (
+				DACB0D8C17E3DC2F00AAE508 /* AppDelegate.h */,
+				DACB0D8D17E3DC2F00AAE508 /* AppDelegate.m */,
+				DACB0D8F17E3DC2F00AAE508 /* Images.xcassets */,
+				DACB0D8417E3DC2F00AAE508 /* Supporting Files */,
+			);
+			path = SenTester;
+			sourceTree = "<group>";
+		};
+		DACB0D8417E3DC2F00AAE508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACB0D8517E3DC2F00AAE508 /* SenTester-Info.plist */,
+				DACB0D8617E3DC2F00AAE508 /* InfoPlist.strings */,
+				DACB0D8917E3DC2F00AAE508 /* main.m */,
+				DACB0D8B17E3DC2F00AAE508 /* SenTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DACB0DC317E3DCB100AAE508 /* SenTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DACB0DCA17E3DCC100AAE508 /* AppDelegateSpec.m */,
+				DACB0DC417E3DCB100AAE508 /* InfoPlist.strings */,
+				DACB0DC617E3DCB100AAE508 /* SenTesterTests-Info.plist */,
+				DACB0DC717E3DCB100AAE508 /* SenTesterTests-Prefix.pch */,
+			);
+			path = SenTesterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACB0D7917E3DC2E00AAE508 /* SenTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB0DA617E3DC2F00AAE508 /* Build configuration list for PBXNativeTarget "SenTester" */;
+			buildPhases = (
+				DACB0D7617E3DC2E00AAE508 /* Sources */,
+				DACB0D7717E3DC2E00AAE508 /* Frameworks */,
+				DACB0D7817E3DC2E00AAE508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenTester;
+			productName = SenTester;
+			productReference = DACB0D7A17E3DC2E00AAE508 /* SenTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACB0DAF17E3DC4100AAE508 /* SenTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB0DC017E3DC4100AAE508 /* Build configuration list for PBXNativeTarget "SenTesterTests" */;
+			buildPhases = (
+				A4187FFA810B44A5BA931DA6 /* Check Pods Manifest.lock */,
+				DACB0DAC17E3DC4100AAE508 /* Sources */,
+				DACB0DAD17E3DC4100AAE508 /* Frameworks */,
+				DACB0DAE17E3DC4100AAE508 /* Resources */,
+				B182711BE6A54A9593256E28 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACB0DBF17E3DC4100AAE508 /* PBXTargetDependency */,
+			);
+			name = SenTesterTests;
+			productName = SenTesterTests;
+			productReference = DACB0DB017E3DC4100AAE508 /* SenTesterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACB0D7217E3DC2E00AAE508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = modocache;
+				TargetAttributes = {
+					DACB0DAF17E3DC4100AAE508 = {
+						TestTargetID = DACB0D7917E3DC2E00AAE508;
+					};
+				};
+			};
+			buildConfigurationList = DACB0D7517E3DC2E00AAE508 /* Build configuration list for PBXProject "SenTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DACB0D7117E3DC2E00AAE508;
+			productRefGroup = DACB0D7B17E3DC2E00AAE508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACB0D7917E3DC2E00AAE508 /* SenTester */,
+				DACB0DAF17E3DC4100AAE508 /* SenTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACB0D7817E3DC2E00AAE508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB0D8817E3DC2F00AAE508 /* InfoPlist.strings in Resources */,
+				DACB0D9017E3DC2F00AAE508 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB0DAE17E3DC4100AAE508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB0DC917E3DCB100AAE508 /* SenTesterTests-Info.plist in Resources */,
+				DACB0DC817E3DCB100AAE508 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4187FFA810B44A5BA931DA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B182711BE6A54A9593256E28 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SenTesterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACB0D7617E3DC2E00AAE508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB0D8E17E3DC2F00AAE508 /* AppDelegate.m in Sources */,
+				DACB0D8A17E3DC2F00AAE508 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB0DAC17E3DC4100AAE508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB0DCB17E3DCC100AAE508 /* AppDelegateSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACB0DBF17E3DC4100AAE508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACB0D7917E3DC2E00AAE508 /* SenTester */;
+			targetProxy = DACB0DBE17E3DC4100AAE508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DACB0D8617E3DC2F00AAE508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACB0D8717E3DC2F00AAE508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DACB0DC417E3DCB100AAE508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACB0DC517E3DCB100AAE508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACB0DA417E3DC2F00AAE508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACB0DA517E3DC2F00AAE508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACB0DA717E3DC2F00AAE508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenTester/SenTester-Prefix.pch";
+				INFOPLIST_FILE = "SenTester/SenTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DACB0DA817E3DC2F00AAE508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenTester/SenTester-Prefix.pch";
+				INFOPLIST_FILE = "SenTester/SenTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DACB0DC117E3DC4100AAE508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C3BB6F31CA426B9F2CD33C /* Pods-SenTesterTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SenTester.app/SenTester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenTesterTests/SenTesterTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SenTesterTests/SenTesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DACB0DC217E3DC4100AAE508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C3BB6F31CA426B9F2CD33C /* Pods-SenTesterTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SenTester.app/SenTester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenTesterTests/SenTesterTests-Prefix.pch";
+				INFOPLIST_FILE = "SenTesterTests/SenTesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACB0D7517E3DC2E00AAE508 /* Build configuration list for PBXProject "SenTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB0DA417E3DC2F00AAE508 /* Debug */,
+				DACB0DA517E3DC2F00AAE508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB0DA617E3DC2F00AAE508 /* Build configuration list for PBXNativeTarget "SenTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB0DA717E3DC2F00AAE508 /* Debug */,
+				DACB0DA817E3DC2F00AAE508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB0DC017E3DC4100AAE508 /* Build configuration list for PBXNativeTarget "SenTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB0DC117E3DC4100AAE508 /* Debug */,
+				DACB0DC217E3DC4100AAE508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACB0D7217E3DC2E00AAE508 /* Project object */;
+}

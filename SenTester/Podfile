@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+target :SenTesterTests, exclusive: true do
+  pod 'Kiwi', git: 'https://github.com/modocache/Kiwi.git',
+              commit: '343a1ee0f6'
+end
+

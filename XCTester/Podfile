@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+target :XCTesterTests, exclusive: true do
+  pod 'Kiwi/XCTest', git: 'https://github.com/modocache/Kiwi.git',
+                     commit: '343a1ee0f6'
+end
+
